@@ -1,68 +1,76 @@
-
 .container {
-    justify-content: space-around;
-    margin: 20px 40px;
-
+	justify-content: space-around;
+	margin: 20px 40px;
 }
 
 .article-home {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    margin: 20px 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	margin: 20px 20px;
 }
 
 .img-home {
-    display: inline;
-    
+	position: relative;
+	float: left;
+}
+
+.img-home .img-home-profile {
+	width: '200px';
+}
+
+.img-home .title-overlaps {
+	position: absolute;
+	right: -211px;
+	font-size: 55px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .presentation {
-    display: inline;
+    padding-top: 5em;
+	float: right;
 }
 
 #presentation h1 {
-    font-family: 'Montaga' serif;
-    font-size: 42px;
-    font-weight: 500;
-    margin-bottom: 0;
+	font-family: 'Montaga' serif;
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 0;
 }
 
 #presentation h2 {
-    font-family: 'Montaga' sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    
+	font-family: 'Montaga' sans-serif;
+	font-size: 24px;
+	font-weight: 500;
 }
 
 #presentation p {
-    font-family: 'Montserrat' sans-serif;
-    font-family: 16px;
-    font-weight: 350;
-    letter-spacing: 2 em;
-    text-align: justify;
-
+	font-family: 'Montserrat' sans-serif;
+	font-family: 16px;
+	font-weight: 350;
+	letter-spacing: 2 em;
+	text-align: justify;
 }
 .card img {
-    width: 150px;
-    }
-    
+	width: 150px;
+}
 
-    .card {
-    width: 200px;
-    border: 1px solid rgb(230 230 230);
-    padding: 20px;
-    border-radius: 3px;
-    box-shadow: 0 0 5px rgb(230 230 230);
-    text-align: center;
-    }
-    
-    .card p {
-        opacity: .7;
-    }
-    
-    .cards {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 30px;
-    }
+.card {
+	width: 200px;
+	border: 1px solid rgb(230 230 230);
+	padding: 20px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgb(230 230 230);
+	text-align: center;
+}
+
+.card p {
+	opacity: 0.7;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
