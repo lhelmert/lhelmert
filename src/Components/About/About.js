@@ -1,5 +1,5 @@
 import React from 'react';
-
+import AboutImage from '../../assets/images/AboutImage.jpg';
 import './About.css';
 
 class About extends React.Component {
@@ -10,7 +10,7 @@ class About extends React.Component {
 					<div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 						<div id="article-about">
 							<div className="img-about">
-								<img src="#" alt="description"></img>
+								<img src={AboutImage} alt="description"></img>
 							</div>
 							<h2>About</h2>
 							<h3>Why you'll love working with me</h3>
@@ -71,7 +71,7 @@ class About extends React.Component {
 											GET TO KNOW ME: My passion project (insert heart): my
 											travel blog (insert link) My fave treat: the way to my
 											heart is coffee with lactose-free milk (insert heart)
-											Can’t live without: my family & friends Random fact about
+											Can’t live without: my family &amp; friends Random fact about
 											me: I’m left-handed :)
 										</p>
 									</div>
