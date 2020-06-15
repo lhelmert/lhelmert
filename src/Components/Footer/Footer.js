@@ -1,5 +1,12 @@
+import {
+	faFacebookSquare,
+	faInstagramSquare,
+	faLinkedin,
+	faTwitterSquare,
+	faYoutubeSquare,
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-
 import './Footer.css';
 
 class Footer extends React.Component {
@@ -8,19 +15,19 @@ class Footer extends React.Component {
 			<div className="footer">
 				<div className="links">
 					<a href="#">
-						<i className="fab fa-facebook-square"></i>
+						<FontAwesomeIcon icon={faFacebookSquare} />
 					</a>
 					<a href="#">
-						<i className="fab fa-instagram"></i>
+						<FontAwesomeIcon icon={faInstagramSquare} />
 					</a>
 					<a href="#">
-						<i className="fab fa-twitter-square"></i>
+						<FontAwesomeIcon icon={faTwitterSquare} />
 					</a>
 					<a href="#">
-						<i className="fab fa-linkedin"></i>
+						<FontAwesomeIcon icon={faLinkedin} />
 					</a>
 					<a href="#">
-						<i className="fab fa-youtube"></i>
+						<FontAwesomeIcon icon={faYoutubeSquare} />
 					</a>
 					<p>
 						This website was coded with <i className="fas fa-heart"></i> at
