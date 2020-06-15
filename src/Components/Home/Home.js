@@ -1,15 +1,9 @@
 import React from 'react';
-
-import './HomeProfile.jpg';
+import HomeProfile from '../../assets/images/HomeProfile.jpg';
 import './Home.css';
 
 export class Home extends React.Component {
 	render() {
-		const HomeProfile = {
-			src: './HomeProfile.jpg',
-			alt: "Hi, I'm Laura!",
-			width: '200px',
-		};
 		return (
 			<div className="container-home">
 				<div className="row justify-content-center">
@@ -18,9 +12,9 @@ export class Home extends React.Component {
 							{/* <!-- Picture left side on Homepage --> */}
 							<div class="img-home">
 								<img
-									src={HomeProfile.src}
-									alt={HomeProfile.alt}
-									width={HomeProfile.width}
+									src={HomeProfile}
+									alt="Hi, I'm Laura"
+									className="img-home-profile"
 								/>
 							</div>
 							<div class="presentation">
