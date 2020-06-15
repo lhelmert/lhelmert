@@ -21,7 +21,7 @@ class Services extends React.Component {
 							<div id="pillars">
 								<h3>What's included:</h3>
 								<div class="card-pillar">
-									<h4>Launch- & Projectmanagement</h4>
+									<h4>Launch- &amp; Project management</h4>
 								</div>
 								<div class="card-pillar">
 									<h4>Operations</h4>
