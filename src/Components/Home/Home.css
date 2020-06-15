@@ -16,19 +16,19 @@
 }
 
 .img-home .img-home-profile {
-	width: '200px';
+	width: 200px;
 }
 
 .img-home .title-overlaps {
 	position: absolute;
-	right: -211px;
-	font-size: 55px;
+	right: -161px;
+	font-size: 27px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
 .presentation {
-    padding-top: 5em;
+    padding: 2.5em 0 0 1em;
 	float: right;
 }
 
