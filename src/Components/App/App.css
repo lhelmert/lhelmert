@@ -1,0 +1,22 @@
+/* @import url(banner.css); */
+/* @import url(container.css); */
+/* @import url(button.css); */
+/* @import url(card.css); */
+/* @import url(footer.css); */
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+.text-center {
+	text-align: center;
+}
+.header {
+	background-image: url("./background_mainbanner.jpg");
+	background-position: cover;
+}

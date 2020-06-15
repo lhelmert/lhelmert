@@ -1,0 +1,22 @@
+.card-about img {
+    width: 150px;
+    }
+    
+    .card-about {
+    width: 200px;
+    border: 1px solid rgb(230 230 230);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    }
+    
+    .card-about p {
+        opacity: .7;
+    }
+    
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
