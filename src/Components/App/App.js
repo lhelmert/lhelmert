@@ -1,30 +1,42 @@
 import React from 'react';
-import './App.css';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import About from '../About/About';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
-import About from '../About/About';
 import Services from '../Services/Services';
 import Vlog from '../Vlog/Vlog';
-import Footer from '../Footer/Footer';
+import './App.css';
 
 class App extends React.Component {
 	render() {
 		return (
-			<div>
-				<div className="App-Header">
-					<Header />
-					<div className="App-Presentation">
-						<Home />
-						<About />
-						<Services />
-						<Vlog />
-					</div>
-					<div className="App-Footer">
-						<Footer />
+			<Router>
+				<div>
+					<div className="App-Header">
+						<Header />
+						<div className="App-Presentation">
+							<Switch>
+								<Route path="/home">
+									<Home />
+								</Route>
+								<Route path="/about">
+									<About />
+								</Route>
+								<Route path="/services">
+									<Services />
+								</Route>
+								<Route path="/vlog">
+									<Vlog />
+								</Route>
+							</Switch>
+						</div>
+						<div className="App-Footer">
+							<Footer />
+						</div>
 					</div>
 				</div>
-			</div>
+			</Router>
 		);
 	}
 }
