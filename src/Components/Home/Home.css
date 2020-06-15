@@ -11,15 +11,25 @@
 }
 
 .img-home {
-	display: inline;
+	position: relative;
+	float: left;
 }
 
 .img-home .img-home-profile {
 	width: '200px';
 }
 
+.img-home .title-overlaps {
+	position: absolute;
+	right: -211px;
+	font-size: 55px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
 .presentation {
-	display: inline;
+    padding-top: 5em;
+	float: right;
 }
 
 #presentation h1 {

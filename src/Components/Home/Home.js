@@ -11,6 +11,7 @@ export class Home extends React.Component {
 						<div className="article-home">
 							{/* <!-- Picture left side on Homepage --> */}
 							<div class="img-home">
+								<h1 className="title-overlaps">Hi! I'm Laura!</h1>
 								<img
 									src={HomeProfile}
 									alt="Hi, I'm Laura"
@@ -18,7 +19,6 @@ export class Home extends React.Component {
 								/>
 							</div>
 							<div class="presentation">
-								<h1>Hi! I'm Laura!</h1>
 								<h2>Certified Online Business Manager</h2>
 								<p>
 									As certified Online Business Manager I help bloggers and
