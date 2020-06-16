@@ -1,5 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+	BrowserRouter as Router,
+	Redirect,
+	Route,
+	Switch,
+} from 'react-router-dom';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -17,6 +22,9 @@ class App extends React.Component {
 						<Header />
 						<div className="App-Presentation">
 							<Switch>
+								<Route exact path="/">
+									<Redirect to="/home" />
+								</Route>
 								<Route path="/home">
 									<Home />
 								</Route>
