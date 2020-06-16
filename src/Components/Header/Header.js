@@ -4,12 +4,16 @@ import Navbar from '../Navbar/Navbar';
 import './Header.css';
 
 class Header extends React.Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
 			<div className="container-header">
 				<nav className="main-header">
 					<div class="upper-bar">
-						<button class="call-button">
+						<button class="call-button" onClick={this.props.switchSidebar}>
 							<h1 class="upper-button">
 								<a href="#">Book a call</a>
 							</h1>
