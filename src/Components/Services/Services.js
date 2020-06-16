@@ -1,5 +1,5 @@
+import { Image, Transformation } from 'cloudinary-react';
 import React from 'react';
-
 import './Services.css';
 
 class Services extends React.Component {
@@ -22,15 +22,59 @@ class Services extends React.Component {
 								<h3>What's included:</h3>
 								<div class="card-pillar">
 									<h4>Launch- &amp; Project management</h4>
+									<Image
+										cloudName="dnmqwxoud"
+										publicId="v1592325091/Icons/undraw_launch_day_4e04_abttit.png"
+									>
+										<Transformation
+											width="150"
+											height="150"
+											gravity="face"
+											crop="thumb"
+										/>
+									</Image>
 								</div>
 								<div class="card-pillar">
 									<h4>Operations</h4>
+									<Image
+										cloudName="dnmqwxoud"
+										publicId="v1592325091/Icons/undraw_launch_day_4e04_abttit.png"
+									>
+										<Transformation
+											width="150"
+											height="150"
+											gravity="face"
+											crop="thumb"
+										/>
+									</Image>
 								</div>
 								<div class="card-pillar">
 									<h4>Leadership</h4>
+									<Image
+										cloudName="dnmqwxoud"
+										publicId="v1592325091/Icons/undraw_launch_day_4e04_abttit.png"
+									>
+										<Transformation
+											width="150"
+											height="150"
+											gravity="face"
+											crop="thumb"
+										/>
+									</Image>
 								</div>
 								<div class="card-pillar">
 									<h4>Money Management</h4>
+									<Image
+										cloudName="dnmqwxoud"
+										publicId="v1592325091/Icons/undraw_launch_day_4e04_abttit.png"
+									>
+										<Transformation
+											width="150"
+											height="150"
+											gravity="face"
+											crop="thumb"
+										/>
+									</Image>
 								</div>
 							</div>
 							<div>
