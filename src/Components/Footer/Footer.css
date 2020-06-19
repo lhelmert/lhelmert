@@ -1,17 +1,17 @@
 .footer {
-	background-color: blue;
+	background-color:#F9EDDF;
 	text-align: center;
 	padding: 60px;
 }
 
 .footer a {
 	font-size: 30px; 
-	color: white;
+	color: #513B61;
 	margin: 0 5px;
 }
 
 .footer p {
-	color: white;
+	color:#513B61;
 }
 
 .footer .fas {

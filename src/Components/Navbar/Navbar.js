@@ -4,15 +4,16 @@ import * as external from '../../config/external.json';
 
 class Navbar extends React.Component {
 	render() {
-		const pages = ['home', 'about', 'services', 'vlog'];
+		const pages = ['Home', 'About', 'Services', 'Vlog'];
 		const navLinks = pages.map((page) => {
 			return (
-				(page === 'vlog' && (
+				(page === 'Vlog' && (
 					<a href={external.links.vlog} target="_blank">
 						{page}
 					</a>
 				)) || <Link to={page}>{page}</Link>
 			);
+			
 		});
 
 		return <nav>{navLinks}</nav>;

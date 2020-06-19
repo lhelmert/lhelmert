@@ -1,5 +1,7 @@
 import React from 'react';
 
+import logo from '../../assets/images/logo.png';
+
 import Navbar from '../Navbar/Navbar';
 import './Header.css';
 
@@ -10,40 +12,39 @@ class Header extends React.Component {
 
 	render() {
 		return (
-			<div className="container-header">
-				<nav className="main-header">
-					<div class="upper-bar">
-						<button class="call-button" onClick={this.props.switchSidebar}>
-							<h1 class="upper-button">
-								<a href="#">Book a call</a>
+			<div className="container-custom">
+					<div className="upper-bar">
+						<button className="call-button" onClick={this.props.switchSidebar}>
+							<h1 className="upper-button">
+								<a href="#" className="btn custom" >Let's chat ☕</a>
 							</h1>
 						</button>
 					</div>
-					{/* <ul className="navbar">			
-					<li><a target="_blank" href="./Home">Home</a></li>
-					<li><a target="_blank" href="./About">About</a></li>
-					<li>Logo</li>
-					<li><a target="_blank" href="./Services">Services</a></li>
-					<li><a target="_blank" href="./Vlog">Vlog</a></li>
-       	  	</ul> */}
-					<Navbar />
-				</nav>
-				<div className="container-banner">
-					<div className="banner">
-						<h1>
-							Please lean back, your business is thriving in proactive mode.{' '}
-							<br /> So what is the vision for the future of your creative biz?
-						</h1>
-						<p> Better business systems for larger milestones </p>
+					<div class="container">
+						<div className ="d-flex justify-content-between align-items-center">
+							<div className="p-2">
+								<img
+										src={logo}
+										width="400" height="125" 
+										className="logo"
+										alt="Logo"
+							/> 
+							</div>
+							<div className="navbar">
+								<Navbar />
+							</div>
+						</div>
 					</div>
+					
+
+				<div className="banner">
+					<h1>
+					Ready to reach your dream destination?</h1>
+					<p>Online Business Management for Bloggers & Creative Entrepreneurs </p>
 				</div>
-			</div>
+			</div>	
 		);
 	}
 }
 
 export default Header;
-// ReactDOM.render(
-// 	<Header />,
-// 	document.getElementById('app')
-// );

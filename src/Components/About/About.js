@@ -8,11 +8,34 @@ class About extends React.Component {
 			<div className="container">
 				<div className="row justify-content-center">
 					<div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-						<div id="article-about">
+						<div className="article-aboutd-flex justify-content-center align-items-start">
+						<h1>About</h1>
 							<div className="img-about">
-								<img src={AboutImage} alt="description"></img>
+								<img src={AboutImage} alt="Laura Helmert, 'About Me' picture"></img>
 							</div>
-							<h2>About</h2>
+							<div className="about-article">
+								<h2>My Story</h2>
+									<p>
+											I love my job! I find great joy in growing personally and
+											professionally, and I feel especially fulfilled when I can
+											help empower other high performers to believe in
+											themselves and reach their goals. I feel you: the
+											over-motivated employee who jumped into the cold water in
+											order to develop your true potential and now—look at you,
+											you’ve become a start-up rockstar and business owner who
+											has successfully started and grown your business, looking
+											beyond profit! As scared as I was of leaving my corporate
+											job, becoming an entrepreneur led me to discover and
+											fulfill my true passion. As an Online Business Manager I
+											get to work with amazing entrepreneurs whom I admire and
+											help them grow their businesses in order to reach even
+											more people. Don’t cut short your ideas and goals because
+											you fear the time investment or are too busy managing your
+											current daily tasks. With a strong spaceship and the right
+											team onboard, you’ll be able to reach the stars and
+											achieve more—while working less.
+									</p>
+							</div>
 							<h3>Why you'll love working with me</h3>
 							<div class="cards">
 								<div className="card-about">
@@ -42,30 +65,6 @@ class About extends React.Component {
 										guidelines.
 									</p>
 								</div>
-								<div>
-									<div>
-										<h3>My story</h3>
-										<p>
-											I love my job! I find great joy in growing personally and
-											professionally, and I feel especially fulfilled when I can
-											help empower other high performers to believe in
-											themselves and reach their goals. I feel you: the
-											over-motivated employee who jumped into the cold water in
-											order to develop your true potential and now—look at you,
-											you’ve become a start-up rockstar and business owner who
-											has successfully started and grown your business, looking
-											beyond profit! As scared as I was of leaving my corporate
-											job, becoming an entrepreneur led me to discover and
-											fulfill my true passion. As an Online Business Manager I
-											get to work with amazing entrepreneurs whom I admire and
-											help them grow their businesses in order to reach even
-											more people. Don’t cut short your ideas and goals because
-											you fear the time investment or are too busy managing your
-											current daily tasks. With a strong spaceship and the right
-											team onboard, you’ll be able to reach the stars and
-											achieve more—while working less.
-										</p>
-									</div>
 									<div className="fun-graph">
 										<p>
 											GET TO KNOW ME: My passion project (insert heart): my
@@ -80,7 +79,6 @@ class About extends React.Component {
 						</div>
 					</div>
 				</div>
-			</div>
 		);
 	}
 }

@@ -8,7 +8,7 @@ class Services extends React.Component {
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-						<div id="article-services">
+						<div className="d-flex justify-content-center align-items-start">
 							<h1>Services</h1>
 							<div>
 								<h2>Own your CEO role</h2>

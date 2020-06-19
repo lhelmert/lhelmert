@@ -1,24 +1,24 @@
 import React from 'react';
-import HomeProfile from '../../assets/images/HomeProfile.jpg';
+import HomeProfile from '../../assets/images/HomeProfile.JPG';
 import './Home.css';
 
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container-home">
+			<div className="container">
 				<div className="row justify-content-center">
 					<div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-						<div className="article-home">
+						<div className="d-flex justify-content-around align-items-start">
 							{/* <!-- Picture left side on Homepage --> */}
-							<div class="img-home">
+							<div className="img-home">
 								<h1 className="title-overlaps">Hi! I'm Laura!</h1>
 								<img
 									src={HomeProfile}
 									alt="Hi, I'm Laura"
-									className="img-home-profile"
-								/>
+									className="img py-3"
+								/> 
 							</div>
-							<div class="presentation">
+							<div className="presentation">
 								<h2>Certified Online Business Manager</h2>
 								<p>
 									As certified Online Business Manager I help bloggers and
@@ -38,7 +38,7 @@ export class Home extends React.Component {
 									fully dive into the process of creating digital products and I
 									do enjoy blogging, too.
 								</p>
-								<a href="#">Services</a>
+								<a href="#" class="btn btn-primary">Services</a>
 								<p>
 									Being half German-half Spanish I ended up being quite a
 									combination between northern efficiency and southern kindness
@@ -49,7 +49,7 @@ export class Home extends React.Component {
 									travel blog, my passion project, in case you get curious what
 									I am all about.
 								</p>
-								<a href="#">More About Me</a>
+								<a href="#"class="btn btn-primary">More About Me</a>
 							</div>
 						</div>
 						<div class="container-overview">

@@ -1,22 +1,9 @@
-.container {
-	justify-content: space-around;
-	margin: 20px 40px;
-}
-
-.article-home {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	margin: 20px 20px;
-}
-
 .img-home {
 	position: relative;
-	float: left;
 }
 
-.img-home .img-home-profile {
-	width: 200px;
+.img-home .img {
+	width: 300px;
 }
 
 .img-home .title-overlaps {
@@ -25,6 +12,7 @@
 	font-size: 27px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	padding-top: 5px;
 }
 
 .presentation {
@@ -52,12 +40,12 @@
 	letter-spacing: 2 em;
 	text-align: justify;
 }
-.card img {
+/* .card img {
 	width: 150px;
-}
+} */
 
-.card {
-	width: 200px;
+/* .card { */
+	/* width: 200px;
 	border: 1px solid rgb(230 230 230);
 	padding: 20px;
 	border-radius: 3px;
@@ -73,4 +61,4 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
-}
+} */
