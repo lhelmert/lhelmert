@@ -20,15 +20,16 @@ class Header extends React.Component {
 							</h1>
 						</button>
 					</div>
-					<div class="container">
-						<div className ="d-flex justify-content-between align-items-center">
+					<div class="d-flex flex-nowrap">
+						<div className ="d-inline-flex justify-content-between align-items-center">
 							<div className="p-2">
-								<img
+								<h1 id="logolike">Laura Helmert</h1>
+								{/* <img
 										src={logo}
-										width="400" height="125" 
+										width="425" height="160" 
 										className="logo"
 										alt="Logo"
-							/> 
+							/>  */}
 							</div>
 							<div className="navbar">
 								<Navbar />
@@ -37,10 +38,9 @@ class Header extends React.Component {
 					</div>
 					
 
-				<div className="banner">
-					<h1>
-					Ready to reach your dream destination?</h1>
-					<p>Online Business Management for Bloggers & Creative Entrepreneurs </p>
+				<div className="container-fluid align-items-center banner">
+					<h1>Ready to reach your dream destination?</h1>
+					<p>Online Business Management for Bloggers & creative Entrepreneurs </p>
 				</div>
 			</div>	
 		);

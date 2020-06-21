@@ -1,18 +1,26 @@
+
 .img-home {
 	position: relative;
+	width: 500px;
+
 }
 
 .img-home .img {
-	width: 300px;
+	width: 400px;
+	margin-top: 21px;
 }
 
 .img-home .title-overlaps {
 	position: absolute;
-	right: -161px;
-	font-size: 27px;
+	right: -450px;
+	font-size: 64px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding-top: 5px;
+	letter-spacing: 5px;
+	padding-top: 30px;
+	font-family: 'flood std', serif;
+	color:rgb(85 85 85);
+
+	
 }
 
 .presentation {
@@ -20,45 +28,87 @@
 	float: right;
 }
 
-#presentation h1 {
-	font-family: 'Montaga' serif;
-	font-size: 42px;
-	font-weight: 500;
-	margin-bottom: 0;
-}
-
-#presentation h2 {
+.presentation h3 {
+	padding-top: 60px;
+	padding-bottom: 10px;
 	font-family: 'Montaga' sans-serif;
-	font-size: 24px;
+	font-size: 1.5 em;
+	font-weight: 500;
+
+}
+.presentation h4 {
+	padding-top: 60px;
+	padding-bottom: 10px;
+	font-family: 'Montaga' sans-serif;
+	font-size: 28px;
 	font-weight: 500;
 }
 
-#presentation p {
-	font-family: 'Montserrat' sans-serif;
+.presentation p {
+	font-family: 'Lato' sans-serif;
 	font-family: 16px;
 	font-weight: 350;
 	letter-spacing: 2 em;
 	text-align: justify;
+	line-height: 28px;
 }
-/* .card img {
+
+.btn.btn-success-home {
+background-color: #F9EDDF;
+border-radius: 15px;
+border: 0.8px solid rgb(184, 218, 245);
+box-shadow: 4px 4px rgb(184, 218, 245);
+color: #513B61;
+opacity: 0.8;
+padding: 8px 8px;
+font-family: 'lato', sans-serif;
+font-size: 21px;
+letter-spacing: 1px;
+justify-content: center;
+position: absolute;
+right: 10px;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+
+
+.btn.btn-success-home:hover {
+	color: rgb(184, 218, 245);
+}
+
+/* Cards  */
+
+h2 {
+	margin-left: 100px;
+	margin-top: 100px;
+	padding-top: 100px;
+	font-family: 'Flood std';
+	font-size: 42px;
+	color:#513B61;
+}
+
+.card-home img {
 	width: 150px;
-} */
-
-/* .card { */
-	/* width: 200px;
-	border: 1px solid rgb(230 230 230);
-	padding: 20px;
-	border-radius: 3px;
-	box-shadow: 0 0 5px rgb(230 230 230);
-	text-align: center;
 }
 
-.card p {
-	opacity: 0.7;
+.card-home {
+	width: 510px;
+	padding: 20px;
+	line-height: 25px;
+	box-shadow: 2px 3px rgba(184, 218, 245, 0.6);
+	
+	margin-right: 20px;
 }
 
 .cards {
-	display: flex;
-	justify-content: space-between;
 	margin-bottom: 30px;
-} */
+	margin-top: 100px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/* Button below Cards  */
+
+.services {
+
+}
