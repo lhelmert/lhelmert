@@ -1,0 +1,66 @@
+h1 {
+	font-family: 'Montaga' serif;
+	font-weight: 600;
+	color:rgb(85 85 85);
+	padding-left: 25px;
+	margin-top: 25px;
+}
+
+
+h3 {
+    font-family: 'Montaga' serif;
+	color: rgb(85 85 85);
+	margin-left: 20px;
+}
+
+h4 {
+    font-family: 'Lato' sans-serif;
+    color: rgb(85 85 85);
+    text-align: justify;
+}
+
+h5 {
+	font-family: 'Lato' sans-serif;
+	font-weight: 400;
+	margin-left: 100px;
+	margin-right: 100px;
+	line-height: 28px;
+}
+
+.article-services p {
+	line-height: 28px;
+	color:rgb(85 85 85);
+}
+
+.overview-services h2 {
+	margin-left: 100px;
+}
+
+.card-pillar {
+	width: 200px;
+	padding: 20px;
+	line-height: 25px;
+	box-shadow: 4px 4px rgba(184, 218, 245, 0.6);
+	margin-right: 20px;
+	color: rgb(85 85 85);
+	border: 0.5px dotted rgba(184, 218, 245, 0.6);
+}
+
+.card-home h4 {
+	color: rgb(85 85 85);
+	text-align: center;
+}
+
+.card-pillar Image {
+width: 300px;
+}
+
+
+/* Banner for Freebie Donwload */
+
+.banner-freebie {
+	background-image: url('../App/20200622_BannerFreebie.png');
+	padding: 120px 60px;
+	background-size: cover;
+	background-position: center;
+}
