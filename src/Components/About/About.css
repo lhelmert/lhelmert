@@ -1,26 +1,39 @@
-.card-about img {
-	width: 150px;
+.img-about {
+	position: relative;
+	width: 350px;
 }
 
-.card-about {
-	width: 200px;
-	border: 1px solid rgb(230 230 230);
-	padding: 20px;
-	border-radius: 3px;
-	box-shadow: 0 0 5px rgb(230 230 230);
-	text-align: center;
+.img-about .img {
+	width: 350px;
+	padding: 5px 5px;
+	margin-top: 20px;
 }
 
-.card-about p {
-	opacity: 0.7;
+.about-article {
+	margin-left: 20px;
+	line-height: 20px;
 }
 
-.cards {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 30px;
+.about-article h1 {
+	font-family: 'Montaga' serif;
+	font-weight: 600;
+	color:rgb(85 85 85);
+	padding-left: 25px;
+	margin-top: 25px;
 }
 
-#article-about .img-about {
-    float: left;
+.about-article p {
+	line-height: 28px;
+	padding: 10px 30px;
+	color:rgb(85 85 85);
+}
+
+/*  Fun Graph for Random Facts */
+
+.fun-graph .img {
+width: 1020px;
+height: 550px;
+position: relative;
+padding-left: 0px;
+padding-top: 20px;
 }
