@@ -36,29 +36,39 @@ h5 {
 }
 
 .card-pillar {
-	width: 200px;
+	width: 510px;
 	padding: 20px;
 	line-height: 25px;
-	box-shadow: 4px 4px rgba(184, 218, 245, 0.6);
-	margin-right: 20px;
+	box-shadow: 2px 2px rgba(184, 218, 245, 0.6);
 	color: rgb(85 85 85);
 	border: 0.5px dotted rgba(184, 218, 245, 0.6);
 }
 
-.card-home h4 {
+.card-pillar h4 {
 	color: rgb(85 85 85);
 	text-align: center;
 }
 
-.card-pillar Image {
-	width: 300px;
+.card-pillar p.text-justify {
+	line-height: 30px;
+}
+
+.card-pillar .card-img-container {
+	text-align: center;
+	min-height: 220px;
+	display: block;
+}
+
+.card-pillar img {
+	max-height: 180px;
 }
 
 /* Banner for Freebie Donwload */
 
 .banner-freebie {
-	background-image: url('../App/20200622_BannerFreebie.png');
-	padding: 120px 60px;
+	background-image: url('../../assets/images/20200622_BannerFreebie.png');
+	min-height: 220px;
+	margin-top: 3.5em;
 	background-size: cover;
 	background-position: center;
 }

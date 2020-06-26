@@ -3,6 +3,10 @@ import React from 'react';
 import './Services.css';
 
 class Services extends React.Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
 			<div className="d-flex my-2 mx-3 py-2 px-2 flex-wrap">
@@ -31,7 +35,7 @@ class Services extends React.Component {
 					<div className="col-md-12">
 						<h2 className="cards-heading">What to expect:</h2>
 						<div className="row">
-							<div className="col-md-4 col-sm-12 card-home">
+							<div className="col-md-3 col-sm-12 card-pillar">
 								<div className="card-img-container">
 									<Image
 										cloudName="lhelmert"
@@ -52,7 +56,7 @@ class Services extends React.Component {
 									is the heart of your business. Let's treat it this way!{' '}
 								</p>
 							</div>
-							<div className="col-md-4 col-sm-12 card-home">
+							<div className="col-md-3 col-sm-12 card-pillar">
 								<div className="card-img-container">
 									<Image
 										cloudName="lhelmert"
@@ -73,7 +77,7 @@ class Services extends React.Component {
 									milestones.
 								</p>
 							</div>
-							<div className="col-md-4 col-sm-12 card-home">
+							<div className="col-md-3 col-sm-12 card-pillar">
 								<div className="card-img-container">
 									<Image
 										cloudName="lhelmert"
@@ -95,7 +99,7 @@ class Services extends React.Component {
 									in their zone of genius.{' '}
 								</p>
 							</div>
-							<div className="offset-md-4 col-sm-12 col-md-4 card-home">
+							<div className="col-sm-12 col-md-3 card-pillar">
 								<div className="card-img-container">
 									<Image
 										cloudName="lhelmert"
@@ -119,11 +123,15 @@ class Services extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="Freebie and Button">
+				<div className="col-md-12">
 					<div className="container-fluid align-items-center banner-freebie"></div>
 					<div>
 						<p>Starting at 2500€/month</p>
-						<a href="#" className="btn btn-success-home">
+						<a
+							href="#"
+							onClick={this.props.switchSidebar}
+							className="btn btn-success-home"
+						>
 							Book your call
 						</a>
 					</div>

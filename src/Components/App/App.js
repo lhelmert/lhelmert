@@ -64,7 +64,7 @@ class App extends React.Component {
 									<About />
 								</Route>
 								<Route path="/services">
-									<Services />
+									<Services switchSidebar={this.switchSidebar.bind(this)} />
 								</Route>
 								<Route path="/vlog">
 									<Vlog />
