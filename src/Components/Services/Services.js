@@ -124,7 +124,37 @@ class Services extends React.Component {
 					</div>
 				</div>
 				<div className="col-md-12">
-					<div className="container-fluid align-items-center banner-freebie"></div>
+					<div className="container-fluid align-items-center banner-freebie">
+						<div className="form-container">
+							<form className="form-inline">
+								<div className="form-group mb-2">
+									<label htmlFor="name" className="sr-only">
+										First Name
+									</label>
+									<input
+										type="text"
+										className="form-control"
+										id="name"
+										placeholder="First Name"
+									/>
+								</div>
+								<div className="form-group mx-sm-3 mb-2">
+									<label htmlFor="email" className="sr-only">
+										Email
+									</label>
+									<input
+										type="email"
+										className="form-control"
+										id="email"
+										placeholder="Email"
+									/>
+								</div>
+								<button type="submit" className="btn btn-primary mb-2">
+									Let's Talk
+								</button>
+							</form>
+						</div>
+					</div>
 					<div>
 						<p>Starting at 2500€/month</p>
 						<a

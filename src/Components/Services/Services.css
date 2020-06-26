@@ -72,3 +72,17 @@ h5 {
 	background-size: cover;
 	background-position: center;
 }
+
+.banner-freebie .form-container {
+	display: flex;
+	vertical-align: middle;
+	height: auto;
+	min-height: 220px;
+	max-width: 64%;
+}
+
+.banner-freebie .form-container input {
+	background-color: #e0d8ba;
+	color: #222222;
+	border: 1px solid #bbb;
+}
