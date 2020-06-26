@@ -136,6 +136,7 @@ class Services extends React.Component {
 										className="form-control"
 										id="name"
 										placeholder="First Name"
+										required
 									/>
 								</div>
 								<div className="form-group mx-sm-3 mb-2">
@@ -147,6 +148,7 @@ class Services extends React.Component {
 										className="form-control"
 										id="email"
 										placeholder="Email"
+										required
 									/>
 								</div>
 								<button type="submit" className="btn btn-primary mb-2">
