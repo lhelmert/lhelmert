@@ -1,0 +1,18 @@
+.navbar {
+	padding: 0.5rem 4em;
+}
+
+.navbar nav a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: rgb(85, 85, 85);
+	text-decoration: none;
+	font-weight: 500;
+	word-spacing: 3px;
+	margin-left: 1.5em;
+}
+
+.navbar nav a:hover {
+	color: #a5a5a5;
+	transition: all 0.4s ease-in-out;
+}

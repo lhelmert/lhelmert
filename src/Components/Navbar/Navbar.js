@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import * as external from '../../config/external.json';
+import './Navbar.css';
 
 class Navbar extends React.Component {
 	render() {

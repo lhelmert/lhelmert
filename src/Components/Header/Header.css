@@ -2,7 +2,7 @@
 
 #logolike {
 	font-family: 'Flood std';
-	color: #513B61;
+	color: #513b61;
 	margin-left: 100px;
 }
 .logo {
@@ -12,7 +12,7 @@
 /* Upper Bar and Button */
 
 .upper-bar {
-	background-color: #F9EDDF;
+	background-color: #f9eddf;
 	padding: 15px;
 	padding-right: 10px;
 	text-align: right;
@@ -20,27 +20,23 @@
 }
 
 .call-button {
-	background-color: #F9EDDF;
+	background-color: #f9eddf;
 	border-radius: 5px;
 	padding: 0px 5px;
 	margin-right: 80px;
 	border: 1px solid rgb(237, 239, 225);
 	box-shadow: 5px 4px rgb(184, 218, 245);
-	
-		
 }
 .call-button :hover {
 	color: rgb(184, 218, 245);
-	
 }
-
 
 .upper-button a {
 	text-decoration: none;
 	font-family: 'Lato' sans-serif;
 	letter-spacing: 1px;
 	font-size: 21px;
-	color: #513B61;
+	color: #513b61;
 	font-weight: 510;
 }
 
@@ -56,7 +52,7 @@
 }
 
 .banner h1 {
-	color:#F9EDDF;
+	color: #f9eddf;
 	font-family: 'Flood std', sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -69,7 +65,7 @@
 }
 
 .banner p {
-	color: #F9EDDF;
+	color: #f9eddf;
 	font-family: Lato, sans-serif;
 	font-size: 24px;
 	font-weight: 400;
@@ -77,5 +73,9 @@
 	text-align: justify center;
 	padding: 5px;
 	margin-left: 30px;
+}
 
+.navbar-container,
+.navbar-container .navbar-wrapper {
+	width: 100%;
 }
