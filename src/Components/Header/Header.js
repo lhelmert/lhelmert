@@ -20,7 +20,7 @@ class Header extends React.Component {
 							</h1>
 						</button>
 					</div>
-					<div class="d-inline-flex flex-nowrap">
+					<div className="d-inline-flex flex-nowrap">
 						<div className ="row justify-content-between align-items-center">
 							<div className="p-2">
 								<h1 id="logolike">Laura Helmert</h1>

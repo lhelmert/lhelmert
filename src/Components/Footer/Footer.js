@@ -14,24 +14,31 @@ class Footer extends React.Component {
 		return (
 			<div className="footer">
 				<div className="links">
-					<a href="www.facebook.com/lhelmert.certifiedobm">
+					<a
+						href="https://www.facebook.com/lhelmert.certifiedobm"
+						target="_blank"
+					>
 						<FontAwesomeIcon icon={faFacebookSquare} />
 					</a>
-					<a href="https://www.instagram.com/laurahelmert_obm/">
+					<a href="https://www.instagram.com/laurahelmert_obm/" target="_blank">
 						<FontAwesomeIcon icon={faInstagramSquare} />
 					</a>
-					<a href="https://twitter.com/HelmertLaura">
+					<a href="https://twitter.com/HelmertLaura" target="_blank">
 						<FontAwesomeIcon icon={faTwitterSquare} />
 					</a>
-					<a href="www.linkedin.com/in/laurahelmertcertifiedobm">
+					<a
+						href="https://www.linkedin.com/in/laurahelmertcertifiedobm"
+						target="_blank"
+					>
 						<FontAwesomeIcon icon={faLinkedin} />
 					</a>
-					<a href="https://www.youtube.com/channel/UCc9jvnl2an3sW3ndvaoT1LA?view_as=subscriber">
+					<a
+						href="https://www.youtube.com/channel/UCc9jvnl2an3sW3ndvaoT1LA?view_as=subscriber"
+						target="_blank"
+					>
 						<FontAwesomeIcon icon={faYoutubeSquare} />
 					</a>
-					<p>
-						This website was coded with ♡ at Laurahelmert.com.
-					</p>
+					<p>This website was coded with ♡ at Laurahelmert.com.</p>
 				</div>
 			</div>
 		);

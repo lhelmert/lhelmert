@@ -8,12 +8,15 @@ class Navbar extends React.Component {
 		const navLinks = pages.map((page) => {
 			return (
 				(page === 'Vlog' && (
-					<a href={external.links.vlog} target="_blank">
+					<a key={page} href={external.links.vlog} target="_blank">
 						{page}
 					</a>
-				)) || <Link to={page}>{page}</Link>
+				)) || (
+					<Link key={page} to={page}>
+						{page}
+					</Link>
+				)
 			);
-			
 		});
 
 		return <nav>{navLinks}</nav>;
