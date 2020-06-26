@@ -1,8 +1,6 @@
-
 .img-home {
 	position: relative;
 	width: 500px;
-
 }
 
 .img-home .img {
@@ -18,13 +16,11 @@
 	letter-spacing: 5px;
 	padding-top: 30px;
 	font-family: 'flood std', serif;
-	color:rgb(85 85 85);
-
-	
+	color: rgb(85 85 85);
 }
 
 .presentation {
-    padding: 2.5em 0 0 1em;
+	padding: 2.5em 0 0 1em;
 	float: right;
 }
 
@@ -43,7 +39,7 @@
 	font-family: 'Montaga' sans-serif;
 	font-size: 28px;
 	font-weight: 500;
-	color:rgb(85 85 85);
+	color: rgb(85 85 85);
 	text-align: center;
 }
 
@@ -58,23 +54,21 @@
 }
 
 .btn.btn-success-home {
-background-color: #F9EDDF;
-border-radius: 15px;
-border: 0.8px solid rgb(184, 218, 245);
-box-shadow: 4px 4px rgb(184, 218, 245);
-color: #513B61;
-opacity: 0.8;
-padding: 8px 8px;
-font-family: 'lato', sans-serif;
-font-size: 21px;
-letter-spacing: 1px;
-justify-content: center;
-position: absolute;
-right: 10px;
-margin-top: 0px;
-margin-bottom: 20px;
+	background-color: #f9eddf;
+	border-radius: 15px;
+	border: 0.8px solid rgb(184, 218, 245);
+	box-shadow: 4px 4px rgb(184, 218, 245);
+	color: #513b61;
+	opacity: 0.8;
+	padding: 8px 8px;
+	font-family: 'lato', sans-serif;
+	font-size: 21px;
+	letter-spacing: 1px;
+	justify-content: center;
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
-
 
 .btn.btn-success-home:hover {
 	color: rgb(184, 218, 245);
@@ -88,12 +82,12 @@ h2 {
 	padding-top: 100px;
 	font-family: 'Flood std';
 	font-size: 42px;
-	color:#513B61;
+	color: #513b61;
 }
 
 .card-home img {
-	width: 250px;
 	justify-content: center;
+	max-height: 195px;
 }
 
 .card-home {
@@ -101,7 +95,6 @@ h2 {
 	padding: 20px;
 	line-height: 25px;
 	box-shadow: 2px 2px rgba(184, 218, 245, 0.6);
-	margin-right: 20px;
 	color: rgb(85 85 85);
 	border: 0.5px dotted rgba(184, 218, 245, 0.6);
 }
@@ -110,10 +103,26 @@ h2 {
 	color: rgb(85 85 85);
 	text-align: center;
 }
+
+.card-home p.text-justify {
+	line-height: 30px;
+}
+
+.card-home .card-img-container {
+	text-align: center;
+	min-height: 220px;
+	display: block;
+}
+
 .cards {
 	margin-bottom: 30px;
 	margin-top: 100px;
 	margin-left: 2em;
 	margin-right: 2em;
 	display: inline-block;
+}
+
+.cards-heading {
+	text-align: center;
+	padding-bottom: 0.5em;
 }

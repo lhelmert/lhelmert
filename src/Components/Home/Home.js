@@ -1,13 +1,14 @@
 import React from 'react';
 import HomeProfile from '../../assets/images/HomeProfile.jpg';
 import { Image, Transformation } from 'cloudinary-react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 export class Home extends React.Component {
 	render() {
 		return (
 			<div className="d-flex my-2 mx-3 py-2 px-2 flex-wrap">
-				<div className="d-inline-flex justify-content-around align-items-start">
+				<div className="d-inline-flex justify-content-around align-items-start row">
 					<div className="col-12 col-md-10 col-sm-4">
 						{/* <!-- row Presentation with Picture --> */}
 						<div className="d-inline-flex">
@@ -31,9 +32,9 @@ export class Home extends React.Component {
 									sustainably grow your business. Ready to lead your creative
 									business to your dream destination?
 								</p>
-								<a href="#" className="btn btn-success-home">
+								<Link to="/Services" className="btn btn-success-home">
 									Services
-								</a>
+								</Link>
 								<h3>About Me</h3>
 								<p className="text-justify">
 									As former finance consultant I've successfully coached 100+
@@ -49,87 +50,88 @@ export class Home extends React.Component {
 									my brand theambassador.eu where I enjoy creative and
 									journalistic blogging and I create my own digital products.
 								</p>
-								<a href="#" className="btn btn-success-home">
+								<Link to="/About" className="btn btn-success-home">
 									About
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
 				</div>
 				{/* <!-- Overview Services --> */}
-				<div className="d-inline-flex">
-					<div className="col-12 col-md-10 col-sm-4">
-						<h2>Why you'll love working with me: </h2>
-						<div className="d-inline-flex">
-							<div className="cards">
-								<div className="card-home">
-									<Image
-										cloudName="lhelmert"
-										publicId="https://res.cloudinary.com/lhelmert/image/upload/v1592760754/Icons/undraw_synchronize_ccxk_rvtuhp.png"
-									>
-										<Transformation
-											width="300"
-											height="300"
-											gravity="face"
-											crop="thumb"
-										/>
-									</Image>
-									<h4>Empathy</h4>
-									<p className="text-justify">
-										{' '}
-										I’ll make it easy for you to delegate, mainly because I
-										genuinely care about your business, your team and your
-										clients. For me it’s about (1) knowing what you want to get
-										done and (2) how you want to get it done.
-									</p>
-								</div>
-								<div className="card-home">
-									<Image
-										cloudName="lhelmert"
-										publicId="https://res.cloudinary.com/lhelmert/image/upload/v1592760753/Icons/undraw_loving_story_0j59_q50mpz.png"
-									>
-										<Transformation
-											width="300"
-											height="300"
-											gravity="face"
-											crop="thumb"
-										/>
-									</Image>
-									<h4>Leadership</h4>
-									<p className="text-justify">
-										{' '}
-										Whether as Team Assistant for a raising Global Consultancy
-										or as the oldest sister of four: For me leadership is about
-										empowerment. I’ve learned to listen and know who is doing
-										what and when and what they need to be motivated to grow on
-										a professional and personal level. Because a business only
-										grows together with its team.
-									</p>
-								</div>
-								<div className="card-home">
-									<Image
-										cloudName="lhelmert"
-										publicId="https://res.cloudinary.com/lhelmert/image/upload/v1592760700/Icons/undraw_in_progress_ql66_ckdmy7.svg"
-									>
-										<Transformation
-											width="250"
-											height="250"
-											gravity="face"
-											crop="thumb"
-										/>
-									</Image>
-									<h4>Effective Efficiency</h4>
-									<p className="text-justify">
-										{' '}
-										Don’t let me fool you with my innocent-looking smile! Give
-										me a task, and I’ll get it done, streamline it, track the
-										results, and provide feedback on potential areas of
-										improvement. Do you want to customize this approach even
-										further? Let's chat over a cup of coffee/tea/apple juice.
-									</p>
-									.
-								</div>
+				<div className="col-md-12">
+					<h2 className="cards-heading">Why you'll love working with me: </h2>
+					<div className="row">
+						<div className="col-md-4 col-sm-12 card-home">
+							<div className="card-img-container">
+								<Image
+									cloudName="lhelmert"
+									publicId="https://res.cloudinary.com/lhelmert/image/upload/v1592760754/Icons/undraw_synchronize_ccxk_rvtuhp.png"
+								>
+									<Transformation
+										width="300"
+										height="300"
+										gravity="face"
+										crop="thumb"
+									/>
+								</Image>
 							</div>
+							<h4>Empathy</h4>
+							<p className="text-justify">
+								{' '}
+								I’ll make it easy for you to delegate, mainly because I
+								genuinely care about your business, your team and your clients.
+								For me it’s about (1) knowing what you want to get done and (2)
+								how you want to get it done.
+							</p>
+						</div>
+						<div className="col-md-4 col-sm-12 card-home">
+							<div className="card-img-container">
+								<Image
+									cloudName="lhelmert"
+									publicId="https://res.cloudinary.com/lhelmert/image/upload/v1592760753/Icons/undraw_loving_story_0j59_q50mpz.png"
+								>
+									<Transformation
+										width="300"
+										height="300"
+										gravity="face"
+										crop="thumb"
+									/>
+								</Image>
+							</div>
+							<h4>Leadership</h4>
+							<p className="text-justify">
+								{' '}
+								Whether as Team Assistant for a raising Global Consultancy or as
+								the oldest sister of four: For me leadership is about
+								empowerment. I’ve learned to listen and know who is doing what
+								and when and what they need to be motivated to grow on a
+								professional and personal level. Because a business only grows
+								together with its team.
+							</p>
+						</div>
+						<div className="col-md-4 col-sm-12 card-home">
+							<div className="card-img-container">
+								<Image
+									cloudName="lhelmert"
+									publicId="https://res.cloudinary.com/lhelmert/image/upload/v1592760700/Icons/undraw_in_progress_ql66_ckdmy7.svg"
+								>
+									<Transformation
+										width="250"
+										height="250"
+										gravity="face"
+										crop="thumb"
+									/>
+								</Image>
+							</div>
+							<h4>Effective Efficiency</h4>
+							<p className="text-justify">
+								{' '}
+								Don’t let me fool you with my innocent-looking smile! Give me a
+								task, and I’ll get it done, streamline it, track the results,
+								and provide feedback on potential areas of improvement. Do you
+								want to customize this approach even further? Let's chat over a
+								cup of coffee/tea/apple juice.
+							</p>
 						</div>
 					</div>
 				</div>
