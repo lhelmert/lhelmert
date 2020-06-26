@@ -1,22 +1,21 @@
 h1 {
 	font-family: 'Montaga' serif;
 	font-weight: 600;
-	color:rgb(85 85 85);
+	color: rgb(85 85 85);
 	padding-left: 25px;
 	margin-top: 25px;
 }
 
-
 h3 {
-    font-family: 'Montaga' serif;
+	font-family: 'Montaga' serif;
 	color: rgb(85 85 85);
 	margin-left: 20px;
 }
 
 h4 {
-    font-family: 'Lato' sans-serif;
-    color: rgb(85 85 85);
-    text-align: justify;
+	font-family: 'Lato' sans-serif;
+	color: rgb(85 85 85);
+	text-align: justify;
 }
 
 h5 {
@@ -29,11 +28,11 @@ h5 {
 
 .article-services p {
 	line-height: 28px;
-	color:rgb(85 85 85);
+	color: rgb(85 85 85);
 }
 
 .overview-services h2 {
-	margin-left: 100px;
+	text-align: center;
 }
 
 .card-pillar {
@@ -52,9 +51,8 @@ h5 {
 }
 
 .card-pillar Image {
-width: 300px;
+	width: 300px;
 }
-
 
 /* Banner for Freebie Donwload */
 

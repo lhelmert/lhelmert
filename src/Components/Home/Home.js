@@ -11,8 +11,8 @@ export class Home extends React.Component {
 				<div className="d-inline-flex justify-content-around align-items-start row">
 					<div className="col-12 col-md-10 col-sm-4">
 						{/* <!-- row Presentation with Picture --> */}
-						<div className="d-inline-flex">
-							<div className="img-home">
+						<div className="row">
+							<div className="img-home col-md-5">
 								<h2 className="title-overlaps">Hi! I'm Laura!</h2>
 								<img
 									src={HomeProfile}
@@ -20,14 +20,14 @@ export class Home extends React.Component {
 									className="img py-3"
 								/>
 							</div>
-							<div className="presentation">
+							<div className="col-md-7 presentation">
 								<h3>Certified Online Business Manager</h3>
 								<p className="text-justify">
 									<strong>Ready to make things happen? </strong> I help bloggers
 									and startup rockstars to reach larger milestones by
 									strengthening the four pillars that make or break the health
-									of your business: (1) systems & smooth operations, (2)
-									leadership & an empowered team, (3) project- &
+									of your business: (1) systems &amp; smooth operations, (2)
+									leadership &amp; an empowered team, (3) project &amp;
 									launch-management as well as (4) easy money management to
 									sustainably grow your business. Ready to lead your creative
 									business to your dream destination?

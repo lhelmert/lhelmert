@@ -51,30 +51,28 @@ class App extends React.Component {
 						}}
 						pullRight={true}
 					>
-						<div className="App-Header">
-							<Header switchSidebar={this.switchSidebar.bind(this)} />
-							<div className="App-Presentation">
-								<Switch>
-									<Route exact path="/">
-										<Redirect to="/home" />
-									</Route>
-									<Route path="/home">
-										<Home />
-									</Route>
-									<Route path="/about">
-										<About />
-									</Route>
-									<Route path="/services">
-										<Services />
-									</Route>
-									<Route path="/vlog">
-										<Vlog />
-									</Route>
-								</Switch>
-							</div>
-							<div className="App-Footer">
-								<Footer />
-							</div>
+						<Header switchSidebar={this.switchSidebar.bind(this)} />
+						<div className="App-Presentation">
+							<Switch>
+								<Route exact path="/">
+									<Redirect to="/home" />
+								</Route>
+								<Route path="/home">
+									<Home />
+								</Route>
+								<Route path="/about">
+									<About />
+								</Route>
+								<Route path="/services">
+									<Services />
+								</Route>
+								<Route path="/vlog">
+									<Vlog />
+								</Route>
+							</Switch>
+						</div>
+						<div className="App-Footer">
+							<Footer />
 						</div>
 					</Sidebar>
 				</div>

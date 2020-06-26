@@ -1,11 +1,11 @@
 .img-home {
 	position: relative;
-	width: 500px;
 }
 
 .img-home .img {
 	width: 350px;
 	margin-top: 21px;
+	float: right;
 }
 
 .img-home .title-overlaps {
@@ -20,8 +20,7 @@
 }
 
 .presentation {
-	padding: 2.5em 0 0 1em;
-	float: right;
+	padding: 2.5em 0 0 0;
 }
 
 .presentation h3 {
@@ -125,4 +124,5 @@ h2 {
 .cards-heading {
 	text-align: center;
 	padding-bottom: 0.5em;
+	margin: 0 auto;
 }
