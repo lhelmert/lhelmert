@@ -122,15 +122,15 @@ class Services extends React.Component {
 							</div>
 						</div>
 						<div>
-						<p className="text-right py-2">Starting at 2000€/month</p>
-						<a
-							href="#"
-							onClick={this.props.switchSidebar}
-							className="btn btn-success-home"
-						>
-							Book your call
-						</a>
-					</div>
+							<p className="text-right py-2">Starting at 2000€/month</p>
+							<a
+								href="#"
+								onClick={this.props.switchSidebar}
+								className="btn btn-success-home"
+							>
+								Book your call
+							</a>
+						</div>
 					</div>
 					<div>
 						<h3>Download your Self-Asssessment Guide below</h3>
@@ -140,7 +140,14 @@ class Services extends React.Component {
 				<div className="col-md-12">
 					<div className="container-fluid align-items-center banner-freebie">
 						<div className="form-container">
-							<form className="form-inline">
+							<form
+								className="form-inline"
+								action="https://gmail.us10.list-manage.com/subscribe/post?u=d206d6a349a967ae27f785a68&amp;id=4a3c578fd5"
+								method="post"
+								id="mc-embedded-subscribe-form"
+								name="mc-embedded-subscribe-form"
+								target="_blank"
+							>
 								<div className="form-group mb-2">
 									<label htmlFor="name" className="sr-only">
 										First Name
@@ -149,6 +156,7 @@ class Services extends React.Component {
 										type="text"
 										className="form-control"
 										id="name"
+										name="NAME"
 										placeholder="First Name"
 										required
 									/>
@@ -161,6 +169,7 @@ class Services extends React.Component {
 										type="email"
 										className="form-control"
 										id="email"
+										name="EMAIL"
 										placeholder="Email"
 										required
 									/>
