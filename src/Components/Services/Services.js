@@ -121,6 +121,20 @@ class Services extends React.Component {
 								</p>
 							</div>
 						</div>
+						<div>
+						<p className="text-right py-2">Starting at 2000€/month</p>
+						<a
+							href="#"
+							onClick={this.props.switchSidebar}
+							className="btn btn-success-home"
+						>
+							Book your call
+						</a>
+					</div>
+					</div>
+					<div>
+						<h3>Download your Self-Asssessment Guide below</h3>
+						<h5>Quickeck & next steps for your businesses' health:</h5>
 					</div>
 				</div>
 				<div className="col-md-12">
@@ -152,20 +166,10 @@ class Services extends React.Component {
 									/>
 								</div>
 								<button type="submit" className="btn btn-primary mb-2">
-									Let's Talk
+									Get now
 								</button>
 							</form>
 						</div>
-					</div>
-					<div>
-						<p>Starting at 2500€/month</p>
-						<a
-							href="#"
-							onClick={this.props.switchSidebar}
-							className="btn btn-success-home"
-						>
-							Book your call
-						</a>
 					</div>
 				</div>
 			</div>
