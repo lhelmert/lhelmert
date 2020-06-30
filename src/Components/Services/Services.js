@@ -142,7 +142,7 @@ class Services extends React.Component {
 						<div className="form-container">
 							<form
 								className="form-inline"
-								action="https://gmail.us10.list-manage.com/subscribe/post?u=d206d6a349a967ae27f785a68&amp;id=4a3c578fd5"
+								action="https://laurahelmert.us10.list-manage.com/subscribe/post?u=e66e150a8c725b407d9e78cd3&amp;amp;id=ce34172212"
 								method="post"
 								id="mc-embedded-subscribe-form"
 								name="mc-embedded-subscribe-form"
