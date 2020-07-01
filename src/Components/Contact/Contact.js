@@ -45,26 +45,35 @@ class Contact extends React.Component {
 				<Transition.Group animation="vertical flip" duration={250}>
 					{!formCollapsed && (
 						<Container>
-							<Form>
+							<form
+								className="ui form"
+								method="post"
+								action="https://laurahelmert.us10.list-manage.com/subscribe/post?u=e66e150a8c725b407d9e78cd3&amp;amp;id=ce34172212"
+							>
 								<Form.Field>
 									<label>First Name</label>
-									<input placeholder="First Name" />
+									<input name="FIRST_NAME" placeholder="First Name" />
 								</Form.Field>
 								<Form.Field>
 									<label>Last Name</label>
-									<input placeholder="Last Name" />
+									<input name="LAST_NAME" placeholder="Last Name" />
 								</Form.Field>
 								<Form.Field>
 									<label>Email Address</label>
-									<input type="email" placeholder="Email Address" />
+									<input
+										name="EMAIL"
+										type="email"
+										placeholder="Email Address"
+									/>
 								</Form.Field>
 								<Form.Field
+									name="COMMENTS"
 									control={TextArea}
 									label="Comments"
 									placeholder="Tell me more about your project..."
 								/>
 								<Button type="submit">Submit</Button>
-							</Form>
+							</form>
 						</Container>
 					)}
 				</Transition.Group>
